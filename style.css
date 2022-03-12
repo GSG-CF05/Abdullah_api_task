@@ -29,7 +29,7 @@ input {
     align-items: center;
     justify-content: center;
     position: relative;
-    
+    overflow-y: auto;
 }
 #root p.sorry {
     font-size: 22px;
