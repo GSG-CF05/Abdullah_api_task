@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
     fetchData(value);
 })
 function fetchData(title) {
-    fetch(`http://www.omdbapi.com/?t=${title}&apikey=c56acfa5`)
+    fetch(`https://www.omdbapi.com/?t=${title}&apikey=c56acfa5`)
     .then(data =>   {
         return data.json()
     })
