@@ -24,17 +24,17 @@ function showData(movie) {
     if (movie.Title) {
         container.innerHTML = `
         <div class="icon" onclick="hideData()">
-                <i class="uil uil-times"></i>
-            </div>
+            <i class="uil uil-times"></i>
+         </div>
         
         <div class="image">
             <img src="${movie.Poster}" />
         </div>
         <div class="dicription">
-        <h2 class="title">
-            ${movie.Title}
-        </h2>
-            <p><b>The Ators are : </b>${movie.Actors}</p>
+            <h2 class="title">
+                ${movie.Title}
+            </h2>
+            <p><b>The Actors are : </b>${movie.Actors}</p>
             <p><b>The language is : </b>${movie.Language}</p>
             <p><b>Plot of the film : </b>${movie.Plot}</p>
         </div>
